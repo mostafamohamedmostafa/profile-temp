@@ -7,7 +7,7 @@ body{
 header{
     background: black;
     color:white;
-    padding: 20px 30px;
+    padding: 00px 15px;
 }
 
 header #page-header{
@@ -30,4 +30,32 @@ header img{
 
 header h2{
     font-size: 16px;
+}
+
+
+header #main-navigation{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+
+header #main-navigation ul{
+    list-style: none;
+    padding: 0%;
+}
+
+header #main-navigation ul li{
+   display: inline-block;
+}
+
+header #main-navigation ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+
+ }
+
+ header #main-navigation ul li a:hover{
+   color: gold;
+
 }
