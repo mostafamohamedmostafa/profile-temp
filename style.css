@@ -101,23 +101,111 @@ header #main-navigation ul li a{
     -o-transition: steps(4) 1s;
 }
 
+.site-header{
+    text-align: center;
+    color: crimson;
+    font-style: italic;
+}
+
+.site-header:hover{
+    color: yellow;
+    transition: steps(4) 1s;
+    -webkit-transition: steps(4) 1s;
+    -moz-transition: steps(4) 1s;
+    -ms-transition: steps(4) 1s;
+    -o-transition: steps(4) 1s;
+}
+.service-box{
+    display: inline-block;
+    width: 24%;
+    padding: 20px 30px;
+    line-height: 1;
+}
 
 
+/*
+.service-box{
+    display: inline-flex;
+    flex-direction: column;
+    width: 25%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    padding: 20px 30px;
+    line-height: 1;
+    
+}
+
+*/
+.service-box img{
+    width: 80px;
+    margin-bottom: 10px;
+   
+
+}
+
+.service-box h4{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+.about{
+     background: gray;
+     width: 100%;
+     padding: 40px 0;
+     color: lightblue;
+     text-align: center;
+}
 
 
+.section-header{
+    text-align: center;
+    color: crimson;
+    font-style: italic;
+}
+.testimonials-box{
+    display: inline-block;
+    width: 24%;
+    padding: 20px 30px;
+    line-height: 1;
+}
 
+.testimonial-content{
+    padding: 15px;
+    background: gray;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 15px;
+}
 
+.testimonial-author img{
+    float: left;
+    width: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 15px;
+}
 
+.testimonial-author h5{
+    font-size: 15px;
+    margin: 0;
+    padding-top: 15px;
+}
 
-
-
-
-
-
-
-
-
-
+.testimonial-author span{
+    color: indigo;
+    font-size: 20px;
+}
 
 
 
@@ -147,7 +235,7 @@ footer{
     color: white;
     padding: 20px;
     text-align: center;
-    background-image: url(img/web_character.gif);
+    background-image: url(img/Moustafa-design-power-name.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
