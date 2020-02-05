@@ -63,12 +63,12 @@ header #main-navigation ul li a:hover {
 .hero {
     min-height: 700px;
     text-align: center;
-    background-image: url(/img/hero-bg.jpg);
+    background-image: url("https://codersera.com/blog/wp-content/uploads/2019/07/0_HICLyAdNSIyT0ODU.jpg");
     background-size: cover;
 }
 
 .hero-content {
-    color: white;
+    color:purple;
     padding-top: 130px;
     line-height: 1;
 }
