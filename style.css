@@ -60,11 +60,98 @@ header #main-navigation ul li a{
 
 }
 
+.hero{
+    min-height: 700px;
+    text-align: center;
+    background-image: url(/img/hero-bg.jpg);
+    background-size: cover;
+}
+
+.hero-content{
+    color: white;
+    padding-top: 130px;
+    line-height: 1;
+}
+
+.hero-content p{
+    font-size: 30px;
+}
+
+.hero-content p:hover{
+    color: hotpink;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
+    -webkit-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
+    -moz-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
+    -ms-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
+    -o-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
+}
+
+.hero-title{
+    margin: 0;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.hero-title:hover{
+    color: gold;
+    transition: steps(4) 1s;
+    -webkit-transition: steps(4) 1s;
+    -moz-transition: steps(4) 1s;
+    -ms-transition: steps(4) 1s;
+    -o-transition: steps(4) 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     background: black;
     color: white;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
+    background-image: url(img/web_character.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
 }
 
 footer img{
