@@ -59,3 +59,21 @@ header #main-navigation ul li a{
    color: gold;
 
 }
+
+footer{
+    background: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+footer img{
+    display: block;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 80px;
+    margin: 0 auto 10px;
+}
