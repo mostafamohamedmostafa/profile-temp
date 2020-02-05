@@ -1,23 +1,23 @@
-body{
+body {
     margin: 0;
     font-size: 20px;
     line-height: 1.6;
 }
 
-header{
+header {
     background: black;
-    color:white;
+    color: white;
     padding: 00px 15px;
 }
 
-header #page-header{
+header #page-header {
     color: white;
     text-decoration: none;
     width: 49%;
     display: inline-block;
 }
 
-header img{
+header img {
     width: 10%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -28,56 +28,56 @@ header img{
     vertical-align: middle;
 }
 
-header h2{
+header h2 {
     font-size: 16px;
 }
 
 
-header #main-navigation{
+header #main-navigation {
     width: 49%;
     display: inline-block;
     text-align: right;
 }
 
-header #main-navigation ul{
+header #main-navigation ul {
     list-style: none;
     padding: 0%;
 }
 
-header #main-navigation ul li{
-   display: inline-block;
+header #main-navigation ul li {
+    display: inline-block;
 }
 
-header #main-navigation ul li a{
+header #main-navigation ul li a {
     text-decoration: none;
     color: white;
     padding: 10px 15px;
 
- }
+}
 
- header #main-navigation ul li a:hover{
-   color: gold;
+header #main-navigation ul li a:hover {
+    color: gold;
 
 }
 
-.hero{
+.hero {
     min-height: 700px;
     text-align: center;
     background-image: url(/img/hero-bg.jpg);
     background-size: cover;
 }
 
-.hero-content{
+.hero-content {
     color: white;
     padding-top: 130px;
     line-height: 1;
 }
 
-.hero-content p{
+.hero-content p {
     font-size: 30px;
 }
 
-.hero-content p:hover{
+.hero-content p:hover {
     color: hotpink;
     transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
     -webkit-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
@@ -86,13 +86,13 @@ header #main-navigation ul li a{
     -o-transition: cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
 }
 
-.hero-title{
+.hero-title {
     margin: 0;
     font-size: 40px;
     font-style: italic;
 }
 
-.hero-title:hover{
+.hero-title:hover {
     color: gold;
     transition: steps(4) 1s;
     -webkit-transition: steps(4) 1s;
@@ -101,13 +101,13 @@ header #main-navigation ul li a{
     -o-transition: steps(4) 1s;
 }
 
-.site-header{
+.site-header {
     text-align: center;
     color: crimson;
     font-style: italic;
 }
 
-.site-header:hover{
+.site-header:hover {
     color: yellow;
     transition: steps(4) 1s;
     -webkit-transition: steps(4) 1s;
@@ -115,7 +115,8 @@ header #main-navigation ul li a{
     -ms-transition: steps(4) 1s;
     -o-transition: steps(4) 1s;
 }
-.service-box{
+
+.service-box {
     display: inline-block;
     width: 24%;
     padding: 20px 30px;
@@ -138,14 +139,14 @@ header #main-navigation ul li a{
 }
 
 */
-.service-box img{
+.service-box img {
     width: 80px;
     margin-bottom: 10px;
-   
+
 
 }
 
-.service-box h4{
+.service-box h4 {
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 15px;
@@ -153,28 +154,29 @@ header #main-navigation ul li a{
     font-weight: 400;
 }
 
-.about{
-     background: gray;
-     width: 100%;
-     padding: 40px 0;
-     color: lightblue;
-     text-align: center;
+.about {
+    background: gray;
+    width: 100%;
+    padding: 40px 0;
+    color: lightblue;
+    text-align: center;
 }
 
 
-.section-header{
+.section-header {
     text-align: center;
     color: crimson;
     font-style: italic;
 }
-.testimonials-box{
+
+.testimonials-box {
     display: inline-block;
     width: 24%;
     padding: 20px 30px;
     line-height: 1;
 }
 
-.testimonial-content{
+.testimonial-content {
     padding: 15px;
     background: gray;
     border-radius: 4px;
@@ -185,7 +187,7 @@ header #main-navigation ul li a{
     margin-bottom: 15px;
 }
 
-.testimonial-author img{
+.testimonial-author img {
     float: left;
     width: 80px;
     border-radius: 50%;
@@ -196,41 +198,18 @@ header #main-navigation ul li a{
     margin-right: 15px;
 }
 
-.testimonial-author h5{
+.testimonial-author h5 {
     font-size: 15px;
     margin: 0;
     padding-top: 15px;
 }
 
-.testimonial-author span{
+.testimonial-author span {
     color: indigo;
     font-size: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
+footer {
     background: black;
     color: white;
     padding: 20px;
@@ -239,16 +218,90 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   
+ 
 }
 
-footer img{
+footer img {
     display: block;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    
     width: 80px;
     margin: 0 auto 10px;
+}
+
+@media screen and (max-width:768px) {
+    header #page-header {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    header #main-navigation {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+
+    .hero {
+        min-height: 300px;
+    }
+
+    .hero-content {
+        padding-top: 80px;
+    }
+
+    .hero-title {
+        font-size: 18px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .service-box {
+        width: 100%;
+        display: block;
+        font-size: 15px;
+
+    }
+
+    .testimonials-box {
+        width: 100%;
+        display: block;
+        padding: 10px 15px;
+    }
+
+
+
+
+    footer {
+        background: black;
+        color: white;
+         text-align: center;
+        background-image: url(img/Moustafa-design-power-name.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+     
+    }
+    
+    footer img {
+        display: block;
+        border-radius: 10px;
+  
+        width: 80px;
+        margin: 0 auto 10px;
+    }
+    
+
+
+
+
+
+
+
+
 }
